@@ -10,6 +10,10 @@
   background-color: #e3f2fd;
 }
 
+.f-size20{
+  font-size: 20px;
+}
+
 .f-size25{
   font-size: 25px;
 }
@@ -24,4 +28,8 @@
 
 .v-height{
   height: 95vh;
+}
+
+footer{
+  background-color: #dcdfe0;
 }
