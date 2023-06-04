@@ -1,20 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html dir="rtl" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dav</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="title icon" type="image/png" href="image/logo.png" />
-</head>
-<body>
-    
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-sm shadow-sm nav-s"
+    >
+      <button
+        class="navbar-toggler"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#my-nav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a href="" class="navbar-brand text-warning mx-4">
+        <i class="fas fa-dove icon-s"></i>
+      </a>
+      <div class="offcanvas offcanvas-end" id="my-nav">
+        <div class="offcanvas-header">
+          <a href="" class="offcanvas-title text-warning mx-4">
+            <i class="fas fa-dove icon-s"></i>
+          </a>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul
+            class="navbar-nav justify-content-start flex-grow-1 pe-3 mb-3 mb-md-0"
+          >
+            <li class="nav-item mx-3">
+              <a href="" class="nav-link">خانه</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a href="" class="nav-link">گالری</a>
+            </li>
+            <li class="nav-item mx-3 dropdown">
+              <a
+                href=""
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >محصولات</a
+              >
+              <div class="dropdown-menu nav-s">
+                <a class="dropdown-item" href="">مرطوب کننده</a>
+                <a class="dropdown-item" href="">صابون</a>
+                <a class="dropdown-item" href="">پک دارو</a>
+              </div>
+            </li>
+            <li class="nav-item mx-3">
+              <a href="" class="nav-link">مشتری</a>
+            </li>
+          </ul>
+          <form class="me-auto ms-3" action="">
+            <div class="input-group">
+              <input
+                class="form-control me-1"
+                type="search"
+                placeholder="جستجو"
+                aria-label="Search"
+              />
+              <div>
+                <button class="btn btn-outline-secondary" type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
