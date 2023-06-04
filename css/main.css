@@ -10,8 +10,12 @@
   background-color: #e3f2fd;
 }
 
-.f-size{
+.f-size25{
   font-size: 25px;
+}
+
+.f-size100{
+  font-size: 100px;
 }
 
 .v-height{
